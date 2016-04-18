@@ -90,7 +90,7 @@ public class MainActivity extends GitsActivity<MainController> {
     @Override
     public void finish() {
         if (mController.finish()) {
-            finish();
+            super.finish();
         }
     }
 
