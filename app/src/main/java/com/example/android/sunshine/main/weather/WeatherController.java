@@ -23,7 +23,7 @@ public class WeatherController extends GitsController<WeatherFragmentVM, Weather
     }
 
     @Override
-    public WeatherFragmentVM getmViewModel(WeatherFragmentBinding binding) {
+    public WeatherFragmentVM createViewModel(WeatherFragmentBinding binding) {
         return new WeatherFragmentVM(mActivity, this, binding);
     }
 

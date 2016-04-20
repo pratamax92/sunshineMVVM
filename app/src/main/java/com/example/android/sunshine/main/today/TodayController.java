@@ -23,7 +23,7 @@ public class TodayController extends GitsController<TodayFragmentVM, TodayFragme
 
 
     @Override
-    public TodayFragmentVM getmViewModel(TodayFragmentBinding binding) {
+    public TodayFragmentVM createViewModel(TodayFragmentBinding binding) {
         return new TodayFragmentVM(mActivity, this, binding);
     }
 
